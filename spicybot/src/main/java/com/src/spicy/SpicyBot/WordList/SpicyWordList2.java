@@ -1,6 +1,6 @@
 package com.src.spicy.SpicyBot.WordList;
 
-public class RyoujiPowerWordList2 {
+public class SpicyWordList2 {
 	
 	public static final String Word101 = "来週のInvitation送っておいて";
 	public static final String Word102 = "来週は月曜日だけ朝7:30から会議お願いします。";

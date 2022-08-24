@@ -1,6 +1,6 @@
 package com.src.spicy.SpicyBot.WordList;
 
-public class RyoujiPowerWordList1 {
+public class SpicyWordList1 {
 
 	public static final String Word1 = "できないとか許さないから";
 	public static final String Word2 = "これ終わるまで今日は帰れないよ";
