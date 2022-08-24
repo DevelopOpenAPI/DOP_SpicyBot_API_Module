@@ -1,4 +1,4 @@
-package com.src.spicybot.SpicyBot.AppConfig;
+package com.src.spicy.SpicyBot.AppConfig;
 
 import java.util.HashSet;
 import java.util.Set;
