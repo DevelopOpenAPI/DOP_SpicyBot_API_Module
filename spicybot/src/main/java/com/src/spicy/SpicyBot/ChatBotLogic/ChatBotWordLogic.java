@@ -5,7 +5,7 @@ import java.io.IOException;
 import javax.enterprise.context.RequestScoped;
 
 import com.src.spicy.SpicyBot.SlackConnect.SlackConnection;
-import com.src.spicy.SpicyBot.WordList.RyoujiPowerWordList1;
+import com.src.spicy.SpicyBot.WordList.SpicyWordList1;
 
 @RequestScoped
 public class ChatBotWordLogic {
@@ -32,163 +32,163 @@ public class ChatBotWordLogic {
 		
 		switch(inputWord) {
 			case "【辛辣Bot】、もう限界です。":
-				Message =  RyoujiPowerWordList1.Word1;
+				Message =  SpicyWordList1.Word1;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、もう帰らせてください。":
-				Message = RyoujiPowerWordList1.Word2;
+				Message = SpicyWordList1.Word2;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、無理です。出来ません。":
-				Message = RyoujiPowerWordList1.Word5;
+				Message = SpicyWordList1.Word5;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、無理":
-				Message = RyoujiPowerWordList1.Word21;
+				Message = SpicyWordList1.Word21;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、できません":
-				Message = RyoujiPowerWordList1.Word30;
+				Message = SpicyWordList1.Word30;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、無理です。":
-				Message = RyoujiPowerWordList1.Word43;
+				Message = SpicyWordList1.Word43;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、終わりません。":
-				Message = RyoujiPowerWordList1.Word40;
+				Message = SpicyWordList1.Word40;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、出来ませんでした":
-				Message = RyoujiPowerWordList1.Word3;
+				Message = SpicyWordList1.Word3;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、できませんでした":
-				Message = RyoujiPowerWordList1.Word3;
+				Message = SpicyWordList1.Word3;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、帰らせてください":
-				Message = RyoujiPowerWordList1.Word2;
+				Message = SpicyWordList1.Word2;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、かえらせてください":
-				Message = RyoujiPowerWordList1.Word2;
+				Message = SpicyWordList1.Word2;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、それパワハラですよ？":
-				Message = RyoujiPowerWordList1.Word46;
+				Message = SpicyWordList1.Word46;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、パラハラ":
-				Message = RyoujiPowerWordList1.Word34;
+				Message = SpicyWordList1.Word34;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、定時までに終わりませんでした。":
-				Message = RyoujiPowerWordList1.Word6;
+				Message = SpicyWordList1.Word6;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、ソースコード":
-				Message = RyoujiPowerWordList1.Word4;
+				Message = SpicyWordList1.Word4;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、ソースコードを見てください。":
-				Message = RyoujiPowerWordList1.Word4;
+				Message = SpicyWordList1.Word4;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、プロダクションコード":
-				Message = RyoujiPowerWordList1.Word7;
+				Message = SpicyWordList1.Word7;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、ios":
-				Message = RyoujiPowerWordList1.Word8;
+				Message = SpicyWordList1.Word8;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、IOS":
-				Message = RyoujiPowerWordList1.Word8;
+				Message = SpicyWordList1.Word8;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、API":
-				Message = RyoujiPowerWordList1.Word9;
+				Message = SpicyWordList1.Word9;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、BFF":
-				Message = RyoujiPowerWordList1.Word9;
+				Message = SpicyWordList1.Word9;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、もう出来ません！":
-				Message = RyoujiPowerWordList1.Word10;
+				Message = SpicyWordList1.Word10;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、もうできません":
-				Message = RyoujiPowerWordList1.Word10;
+				Message = SpicyWordList1.Word10;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、さっきまで動いていたんですけど":
-				Message = RyoujiPowerWordList1.Word11;
+				Message = SpicyWordList1.Word11;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、この前まで問題なく動いていました！":
-				Message = RyoujiPowerWordList1.Word11;
+				Message = SpicyWordList1.Word11;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、出来ます！":
-				Message = RyoujiPowerWordList1.Word12;
+				Message = SpicyWordList1.Word12;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、できます!":
-				Message = RyoujiPowerWordList1.Word12;
+				Message = SpicyWordList1.Word12;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、出来ます":
-				Message = RyoujiPowerWordList1.Word12;
+				Message = SpicyWordList1.Word12;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、できます":
-				Message = RyoujiPowerWordList1.Word12;
+				Message = SpicyWordList1.Word12;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、調査しておきました":
-				Message = RyoujiPowerWordList1.Word13;
+				Message = SpicyWordList1.Word13;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、調査しておきました！":
-				Message = RyoujiPowerWordList1.Word13;
+				Message = SpicyWordList1.Word13;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、調査しておきました。":
-				Message = RyoujiPowerWordList1.Word13;
+				Message = SpicyWordList1.Word13;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、もう辞めます！":
-				Message = RyoujiPowerWordList1.Word14;
+				Message = SpicyWordList1.Word14;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、辞めます":
-				Message = RyoujiPowerWordList1.Word14;
+				Message = SpicyWordList1.Word14;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、このような結果になりました。":
-				Message = RyoujiPowerWordList1.Word12;
+				Message = SpicyWordList1.Word12;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、本番環境指示通り調査しました。":
-				Message = RyoujiPowerWordList1.Word13;
+				Message = SpicyWordList1.Word13;
 				slackConnection.Service(Message);
 				break;
 			case  "【辛辣Bot】、諦めます。":
-				Message = RyoujiPowerWordList1.Word15;
+				Message = SpicyWordList1.Word15;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、何ですか？それ？":
-				Message = RyoujiPowerWordList1.Word16;
+				Message = SpicyWordList1.Word16;
 				slackConnection.Service(Message);
 				break;
 			case  "【辛辣Bot】、おはようございます。":
-				Message = RyoujiPowerWordList1.Word17;
+				Message = SpicyWordList1.Word17;
 				slackConnection.Service(Message);
 				break;
 			case "【辛辣Bot】、・・・":
-				Message = RyoujiPowerWordList1.Word18;
+				Message = SpicyWordList1.Word18;
 				slackConnection.Service(Message);
 				break;
 			

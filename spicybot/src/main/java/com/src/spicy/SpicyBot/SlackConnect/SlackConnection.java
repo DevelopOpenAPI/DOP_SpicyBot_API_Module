@@ -25,7 +25,7 @@ public class SlackConnection {
 	private Response RequestSlack(String Message) throws IOException {
 		Slack slack = Slack.getInstance();
 
-		String webhookUrl = "https://hooks.slack.com/services/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"; 
+		String webhookUrl = "https://hooks.slack.com/services/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"; 
 		Payload payload = Payload.builder().text(Message).build();
 
 		WebhookResponse response = slack.send(webhookUrl, payload);
