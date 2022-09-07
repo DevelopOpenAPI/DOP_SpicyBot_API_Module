@@ -1,8 +1,6 @@
 package com.src.spicy.SpicyBot.Resources;
 
 import java.io.IOException;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
 
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.BeanParam;
@@ -12,7 +10,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.src.spicy.SpicyBot.BusinessLogic.VirtualRyoujiForSlack;
+import com.src.spicy.SpicyBot.BusinessLogic.SpicyBotForSlack;
 import com.src.spicy.SpicyBot.Entity.RequestBodyEntity;
 import com.src.spicy.SpicyBot.Entity.RequestEntity;
 
@@ -20,14 +18,14 @@ import com.src.spicy.SpicyBot.Entity.RequestEntity;
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 @Path("")
-public class RyoujiVictimResources {
+public class SpicyBotResources {
 	
-	VirtualRyoujiForSlack virtualRyoujiForSlack = new VirtualRyoujiForSlack();
+	SpicyBotForSlack spicyBotForSlack = new SpicyBotForSlack();
 	
 	@POST
-	@Path("/virtualryouji")
+	@Path("/spicywebhook")
 	public String Logic1(@BeanParam RequestEntity requestEntity, RequestBodyEntity requestBodyEntity) throws IOException {
-		return virtualRyoujiForSlack.S_Service(requestEntity, requestBodyEntity);
+		return spicyBotForSlack.S_Service(requestEntity, requestBodyEntity);
 	}
 
 }

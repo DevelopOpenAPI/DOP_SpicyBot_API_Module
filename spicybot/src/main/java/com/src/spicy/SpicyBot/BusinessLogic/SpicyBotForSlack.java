@@ -10,7 +10,7 @@ import com.src.spicy.SpicyBot.Entity.RequestBodyEntity;
 import com.src.spicy.SpicyBot.Entity.RequestEntity;
 
 @RequestScoped
-public class VirtualRyoujiForSlack {
+public class SpicyBotForSlack {
 	
 	RequestEntity requestEntity = new RequestEntity();
 	
@@ -18,7 +18,7 @@ public class VirtualRyoujiForSlack {
 	
 	ChatBotWordLogic chatBotWordLogic = new ChatBotWordLogic();
 	
-	public VirtualRyoujiForSlack() {
+	public SpicyBotForSlack() {
 		
 	}
 	
@@ -33,5 +33,4 @@ public class VirtualRyoujiForSlack {
 		chatBotWordLogic.Service(inputWord);
 		return null;
 	}
-
 }

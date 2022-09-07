@@ -12,7 +12,7 @@ public class ApplicationConfig extends Application{
 	@Override
 	public Set<Class<?>> getClasses(){
 		Set<Class<?>> classes = new HashSet<Class<?>>();
-		classes.add(com.src.spicy.SpicyBot.Resources.RyoujiVictimResources.class);
+		classes.add(com.src.spicy.SpicyBot.Resources.SpicyBotResources.class);
 		return classes;
 	}
 
